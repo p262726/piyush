@@ -1,0 +1,50 @@
+.div-item{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+h1{
+    line-height: 1.25;
+    margin-left: 10px;
+    margin-top: 30%;
+}
+h2{
+    margin-top: 10%;
+    margin-left:10px;
+}
+.canvas{
+    margin-right:60% ;
+    padding: 0;
+    overflow: hidden;
+}
+.button{
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 10px; 
+    margin-right: 50px;
+    border: 3px solid black;
+}
+#grey{
+    background: gray;
+}
+#white{
+    background: white;
+}
+#blue{
+    background: blue;
+}
+#yellow{
+    background: yellow;
+}
